@@ -1,0 +1,18 @@
+package src.Arrays;
+public class MinInArray {
+    public static void main(String[] args) {
+         int arr[] = {4,2,-5,21,15};
+
+         System.out.println(findMin(arr));
+    }
+
+    public static int findMin(int arr[]){
+        int min=Integer.MAX_VALUE;
+        for(int i=0;i<=arr.length-1;i++){
+            if(arr[i]<min){
+                min=arr[i];
+            }
+        }
+        return min;
+    }
+}
