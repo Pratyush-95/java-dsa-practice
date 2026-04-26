@@ -1,3 +1,4 @@
+package src.twodArrays;
 public class sumofAllElement {
     public static void main(String[] args) {
         
