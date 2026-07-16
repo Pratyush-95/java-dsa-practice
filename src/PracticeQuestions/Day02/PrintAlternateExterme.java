@@ -1,0 +1,30 @@
+
+package src.PracticeQuestions.Day02;
+
+public class PrintAlternateExterme {
+
+    public static void main(String[] args) {
+        int arr[]={1,2,3,4,5,6};
+        print(arr);
+        // for(int i=0;i<arr.length;i++){
+        //     System.out.print(arr[i]+" ");
+        // }
+    }
+
+    public static void print(int arr[]){
+        int i=0;
+        int j=arr.length-1;
+        while (i<=j) {
+           if(i==j){
+              System.out.println(i);
+              return;
+           }
+           else{
+            System.out.print(arr[i]+" ");
+            i++;
+            System.out.print(arr[j]+" ");
+            j--;
+           }
+        }
+    }
+}
